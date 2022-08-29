@@ -79,3 +79,30 @@ font-size: 14px;
 .player-image{
     width: 260px;
 }
+footer{
+     background-color: lightseagreen;
+     width: 1200px;
+     height: 300px;
+     margin-left: 50px;
+     text-align: center;
+}
+footer h2{
+     font-size: 35px;
+     color: #ffffff;
+     margin-top: 80px;
+     padding-top: 100px;
+}
+footer p{
+    color:#ffffff;
+}
+footer hr{
+    border: 1px solid rgb(132, 112, 109);
+}
+.footer-menu a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #ffffff;
+}
+footer-follow{
+    display:flex ;
+}
