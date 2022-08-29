@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:lightseagreen;
+    width: 900px;
+    margin-left: 100px;
+    padding:50px;
+    border-radius: 25px;
+}
+.show-banner{
+    display: flex;
+}
+.banner-header{
+    width: 50%;
+    margin-left: 30px;
+}
+.banner-header h1{
+    color: white;
+    font-size: 70px;
+}
+.banner-header p{
+color: white;
+font-size: 14px;
+}
+.btn-icon{
+    color: blue;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.banner-image{
+    width: 50%;
+    margin-left: 30px;
+}
+.banner-image img{
+    width: 400px;
+}
