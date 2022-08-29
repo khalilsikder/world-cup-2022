@@ -38,3 +38,44 @@ font-size: 14px;
 .banner-image img{
     width: 400px;
 }
+.information{
+    display: flex;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding:50px;
+}
+
+.inform-card{
+     width: 252px;
+     height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color:lightseagreen;
+    margin-right: 30px;   
+}
+.inform-card #spaciall{background-color: crimson;}
+.inform-card a{
+    text-decoration: none;
+    background-color: white;
+    color:rgb(96, 80, 80);
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    padding:15px ;
+    border: 1px solid white;
+    border-radius:10px ;
+}
+.icon-chat{
+    display: flex;
+    justify-content: space-evenly;
+}
+.field-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border-start-start-radius: 5px;
+}
+.player-image{
+    width: 260px;
+}
