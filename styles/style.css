@@ -5,7 +5,7 @@ body{
 }
 header{
     background-color:black;
-    width: 700px;
+    width: 900px;
     margin-left: 100px;
     padding:50px;
     border-radius: 25px;
@@ -41,7 +41,7 @@ font-size: 14px;
 }
 .information{
     display: flex;
-    width: 900px;
+    width: 1200px;
     margin-left: 50px;
     margin-top: 50px;
     padding:50px;
@@ -160,7 +160,7 @@ font-size: 14px;
 }
 footer{
     background-color: blueviolet;
-    width: 1200px;
+    width: 900px;
     height: 400px;
     margin-left: 80px;
     text-align: center;
@@ -178,26 +178,55 @@ footer-follow{
 /* breakpoint for mobile device end */
 
 /* breakpoint for tablet start */
-@media screen and (max-width:768px){
+@media screen and (max-width:768){
     header{
         background-color:lightseagreen;
-        width: 900px;
+        width: 1200px;
         margin-left: 100px;
         padding:50px;
         border-radius: 25px;
     }
-    .inform-card a{
-        width: 252px;
-        height: 280px;
-       background-color:lightseagreen;
-       margin-right: 30px;   
-   }
+    .inform-card{
+       display: flex;
+       flex-direction:row;
+     }
+
    .field-players{
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
     gap: 10px;
     padding-top: 30px;
     border-start-start-radius: 5px;
+}
+.information{
+    display: flex;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding:50px;
+}
+.flag{
+    display: flex;
+}
+.inform-card{
+     width: 252px;
+     height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color:lightseagreen;
+    margin-right: 30px;   
+}
+.inform-card #spaciall{background-color: crimson;}
+.inform-card a{
+    text-decoration: none;
+    background-color: white;
+    color:rgb(96, 80, 80);
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    padding:15px ;
+    border: 1px solid white;
+    border-radius:10px ;
 }
 
 }
