@@ -1,10 +1,11 @@
 body{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 header{
-    background-color:lightseagreen;
-    width: 900px;
+    background-color:black;
+    width: 700px;
     margin-left: 100px;
     padding:50px;
     border-radius: 25px;
@@ -45,7 +46,9 @@ font-size: 14px;
     margin-top: 50px;
     padding:50px;
 }
-
+.flag{
+    display: flex;
+}
 .inform-card{
      width: 252px;
      height: 280px;
@@ -83,7 +86,7 @@ footer{
      background-color: lightseagreen;
      width: 1200px;
      height: 300px;
-     margin-left: 50px;
+     margin-left: 80px;
      text-align: center;
 }
 footer h2{
@@ -106,3 +109,96 @@ footer hr{
 footer-follow{
     display:flex ;
 }
+/* brepoint for mobile device start */
+@media screen and (max-width:576px) {
+    header{
+        background-color:blueviolet;
+        width: 250px;
+        margin-left: 100px;
+        padding:50px;
+        border-radius: 25px;
+    }
+    .show-banner{
+        display: flex;
+        flex-direction: column;
+}
+.banner-header h1{
+    color: white;
+    font-size: 50px;
+}
+.banner-header p{
+color: white;
+font-size: 14px;
+}
+.banner-image{
+    width: 25%;
+}
+
+.banner-image img{
+    width: 250px;
+    padding-top: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 50px;;
+    padding:50px;
+}
+.field-players{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 10px;
+    padding-top: 30px;
+    border-start-start-radius: 5px;
+}
+.icon-chat{
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer{
+    background-color: blueviolet;
+    width: 1200px;
+    height: 400px;
+    margin-left: 80px;
+    text-align: center;
+}
+.footer-menu a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #ffffff;
+}
+footer-follow{
+    display:flex ;
+}
+
+}
+/* breakpoint for mobile device end */
+
+/* breakpoint for tablet start */
+@media screen and (max-width:768px){
+    header{
+        background-color:lightseagreen;
+        width: 900px;
+        margin-left: 100px;
+        padding:50px;
+        border-radius: 25px;
+    }
+    .inform-card a{
+        width: 252px;
+        height: 280px;
+       background-color:lightseagreen;
+       margin-right: 30px;   
+   }
+   .field-players{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    padding-top: 30px;
+    border-start-start-radius: 5px;
+}
+
+}
+        
