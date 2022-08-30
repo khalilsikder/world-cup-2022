@@ -93,7 +93,7 @@ footer h2{
      font-size: 35px;
      color: #ffffff;
      margin-top: 80px;
-     padding-top: 100px;
+     padding-top: 80px;
 }
 footer p{
     color:#ffffff;
@@ -112,7 +112,7 @@ footer-follow{
 /* breakpoint for mobile device start */
 @media screen and (max-width:576px) {
     header{
-        background-color:blueviolet;
+        background-color:black;
         width: 250px;
         margin-left: 100px;
         padding:50px;
@@ -124,7 +124,7 @@ footer-follow{
 }
 .banner-header h1{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 .banner-header p{
 color: white;
@@ -141,7 +141,7 @@ font-size: 14px;
 .information{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 400px;
     margin-left: 50px;
     margin-top: 50px;;
     padding:50px;
@@ -159,16 +159,22 @@ font-size: 14px;
     
 }
 footer{
-    background-color: blueviolet;
-    width: 300px;
+    background-color: black;
+    width: 400px;
     height: 400px;
     margin-left: 80px;
     text-align: center;
 }
+footer h2{
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-top: 50px;
+}
 .footer-menu a{
     display: block;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
     text-decoration: none;
     color: #ffffff;
 }
