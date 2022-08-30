@@ -160,14 +160,16 @@ font-size: 14px;
 }
 footer{
     background-color: blueviolet;
-    width: 700px;
+    width: 300px;
     height: 400px;
     margin-left: 80px;
     text-align: center;
 }
 .footer-menu a{
+    display: block;
+    align-items: center;
+    padding: 5px;
     text-decoration: none;
-    padding-left: 20px;
     color: #ffffff;
 }
 footer-follow{
